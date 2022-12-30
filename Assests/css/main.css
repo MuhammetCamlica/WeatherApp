@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.weather-app-area {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+video {
+    width: 100%;
+    position: relative;
+    filter: blur(2px);
+    margin-top: -111px;
+    margin-left: 30px;
+}
+
+.ctiy-search-area {
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    left: 0;
+}
+
+.ctiy-search-area input {
+    width: 25%;
+    height: 30%;
+}
+
+.ctiy-search-area input {
+    width: 27%;
+    height: 30%;
+    margin-left: 31px;
+    background: #00bcd457;
+    border: none;
+    padding: 25px;
+    border-radius: 10px;
+    filter: drop-shadow(2px 4px 6px black);
+    color: white;
+    outline: none;
+}
+
+.ctiy-search-area input::placeholder {
+    color: white;
+}
+
+.card {
+    position: absolute;
+    left: 33%;
+    top: 41%;
+    background: #00bcd457;
+    color: white;
+    width: 35%;
+    height: 30%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 25px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+  
+.konum {
+    width: 100%;
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.derece {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.aracizgi {
+    width: 25px;
+    border: 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    filter: drop-shadow(2px 4px 6px white);
+}
+
